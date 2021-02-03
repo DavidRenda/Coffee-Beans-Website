@@ -1,0 +1,121 @@
+body{
+    background: grey;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+/*HEADER*/
+header {
+    background: black;
+    background-image: url("images/hero.jpg");
+    background-size: 100%;
+    background-position: 70% 90%;
+    padding: 80px 0 0 0;
+    text-align: center;
+    height: 300px;
+}
+a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 25px;
+    font-family: "Arial", sans-serif;
+}
+
+header .mobile {
+display: none;
+}
+header .logo a {
+    
+    background-image: url("images/logo.png");
+    background-size: 250px;
+    display: inline-block;
+    height: 200px;
+    position: relative;
+    background-repeat: no-repeat;
+    width: 250px;
+    top: -70px;
+    text-indent: -99999999px;
+}
+/*Responsive Rules*/
+@media screen and (max-width: 737px) {
+header .mobile {
+    display: inline-block;
+   
+}
+header .logo {
+    position: relative;
+    top: 55px;
+}
+header .desktop {
+    display: none;
+}
+header {
+    height: 200px;
+}
+
+}
+
+/*FEATURES*/
+.features {
+    background: white;
+    color: grey;
+    padding: 10vw 20vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.features figure {
+text-align: center;
+    margin: auto;
+    width: 200px;
+    text-transform: uppercase;
+}
+.features figure img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+    box-shadow: grey 0 0 10px;
+    border: 1px solid white;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;  
+}
+
+li {
+    display: inline-block;
+    margin-right: ;
+}
+
+li :hover {
+    text-decoration: underline;
+    
+}
+/*FOOTER*/
+footer {
+    background: black;
+    color: gray;
+    font-size: 12px;
+    padding: 28px 20px 125px;
+    text-align: center;
+
+}
+.FooterContents {
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20vw;
+}
+.p1 {
+    width: 33%
+}
+.p2 {
+    width: 33%
+}
+.p3 {
+    width: 33%
+}
